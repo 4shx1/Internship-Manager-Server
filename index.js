@@ -27,7 +27,7 @@ app.use(
 
 
 // Connect to MongoDB
-mongoose.connect('mongodb+srv://internship:mbits111@cluster0.rnsokk3.mongodb.net/?retryWrites=true&w=majority', {
+mongoose.connect('MongoDB_URL', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 });
